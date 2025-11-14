@@ -4,29 +4,29 @@
 :root, :root[data-theme='dark'] {
   --primary-color: #F0F0F0;
 
-  --primary-bg-color: #111217;
-  --secondary-bg-color: #28292E;
-  --primary-border-color: #28292E;
-	--secondary-border-color: #56575A;
+  --primary-bg-color: #0c0827;
+  --secondary-bg-color: #061250;
+  --primary-border-color: #0011ff;
+	--secondary-border-color: #4282fb;
 
-  --title-color: #F0F0F0;
-  --text-color: #9A9A9C;
-  --link-color: #9A9A9C;
-  --icon-color: #C7C8C9;
+  --title-color: #a0c6ff;
+  --text-color: hsl(216, 100%, 80%);
+  --link-color: #5165ff;
+  --icon-color: #000ad0;
 }
 
 :root[data-theme='light'] {
-  --primary-color: #0B0B0F;
+  --primary-color: #ffffff;
 
-	--primary-bg-color: #E9E9E9;
-	--secondary-bg-color: #C7C8C9;
-	--primary-border-color: #C7C8C9;
-	--secondary-border-color: #9A9A9C;
+	--primary-bg-color: #80bdff;
+	--secondary-bg-color: #91cdff;
+	--primary-border-color: #000000;
+	--secondary-border-color: #000000;
 
 	--title-color: #0B0B0F;
 	--text-color: #28292E;
 	--link-color: #28292E;
-	--icon-color: #56575A;
+	--icon-color: #000000;
 }
 
 html[data-theme='light'] .brand__logo {
